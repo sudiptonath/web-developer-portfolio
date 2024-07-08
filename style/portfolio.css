@@ -39,6 +39,9 @@ nav ul{
     align-items: center;
     
 }
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 .btn-primary{
     background-color: #FD6E0A;
     font-weight: 700;
@@ -71,4 +74,36 @@ nav ul{
     background-image: url(../images/developer.png),url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left,bottom right;
+}
+.section-title{
+    font-weight: bold;
+    font-size: 30px;
+    color: #181818;
+}
+.section-description{
+color: 757575;
+font-size: 18px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+    border-radius: 10px;
+    padding: 130px 155px ;
+    text-align: center;
+    margin-top: 50px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    color: #474747 ;
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.item-tittle{
+    margin-bottom: 0;
 }
