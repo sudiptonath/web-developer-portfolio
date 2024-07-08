@@ -88,11 +88,15 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 .about{
     border-radius: 10px;
     padding: 130px 155px ;
     text-align: center;
-    margin-top: 50px;
+    
 }
 .about-items{
     display: flex;
@@ -106,4 +110,48 @@ main{
 }
 .item-tittle{
     margin-bottom: 0;
+}
+.text-center{
+    text-align: center;
+}
+.skill-container{
+    display: flex;
+    column-gap: 24px;
+
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px ;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.resume-container{
+    display: flex;
+    gap: 30px;
+   
+}
+.section-item{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+.resume-colum-title{
+    font-weight: bold;
+    font-size: 30px;
+}
+.experience-title{
+    font-weight: bold;
+    font-size: 25px;
+}
+.experience-sub-title{
+    font-weight:500;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.sudipto{
+    text-align: center;
+    margin-top: 50px;
+}
+.experience-description {
+    color: #757575;
 }
